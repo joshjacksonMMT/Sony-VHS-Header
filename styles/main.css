@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black|Poppins");
+.hero-section {
+  display: grid;
+}
+
+.hero-section-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.hero-section-header-title {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  grid-gap: 5px;
+  padding-top: 25px;
+  padding-left: 100px;
+  font-family: "Poppins", "Archivo Black", serif;
+}
+.hero-section-header-title h2 {
+  font-size: 2.5em;
+}
+.hero-section-header-title h6 {
+  align-self: center;
+  font-size: 0.625em;
+  color: #F62D37;
+}
+
+.view-all-button {
+  align-self: center;
+  justify-self: center;
+}
+.view-all-button img {
+  width: 42px;
+  height: 42px;
+}
+
+.hero-section-main {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.hero-section-main .made-in-japan-tagline {
+  align-self: end;
+  padding-bottom: 80px;
+}
+
+.hero-section-main-title {
+  font-size: 2.5em;
+  padding-top: 25px;
+  padding-left: 100px;
+}
+.hero-section-main-title .m-180 {
+  font-size: 3em;
+}
+.hero-section-main-title .dynamicron {
+  display: grid;
+}
+
+.colour-blocks {
+  display: grid;
+  grid-template-rows: 73px 73px 73px 73px 73px;
+}
+
+.colour-block-5, .colour-block-4, .colour-block-3, .colour-block-2, .colour-block-1 {
+  width: 100%;
+}
+
+.colour-block-1 {
+  background: #FEBE26;
+}
+
+.colour-block-2 {
+  background: #FE672E;
+}
+
+.colour-block-3 {
+  background: #F52D3A;
+}
+
+.colour-block-4 {
+  background: #D02467;
+}
+
+.colour-block-5 {
+  background: #710965;
+}
+
+html, body {
+  /*Fill the screen and remove default padding.*/
+  height: 100%;
+  margin: 0;
+  background: #F7F3ED;
+  color: #111111;
+  font-family: "Archivo Black", serif;
+}
+
+.content {
+  min-height: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */

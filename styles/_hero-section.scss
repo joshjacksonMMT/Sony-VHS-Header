@@ -1,3 +1,8 @@
+
+
+
+//HERO SECTION HEADER
+//#region
 .hero-section
 {
   display: grid;
@@ -19,9 +24,13 @@
   padding-top: 25px;
   padding-left: 100px;
 
+  font-family: $sonyFontFamily;
+
   h2
   {
     font-size: $h2FontSize;
+
+    
   }
 
   h6
@@ -44,23 +53,94 @@
     height: 42px;
   }
 }
+//#endregion
 
 
 //HERO MAIN SECTION
-
-
-
+//#region
 .hero-section-main
 {
-  border: 1px solid red;
-
   display: grid;
   grid-template-columns: 4fr 1fr;
+
+  .made-in-japan-tagline
+  {
+    align-self: end;
+
+    padding-bottom: 80px;
+  }
 }
 
 .hero-section-main-title
 {
-  display: grid;
-  \
-  
+  font-size: $h2FontSize;
+
+  padding-top: 25px;
+  padding-left: 100px;
+
+  .m-180
+  {
+    font-size: $h1FontSize;
+  }
+
+  .dynamicron
+  {
+    display: grid;
+  }
 }
+//#endregion
+
+
+
+
+//COLOUR BLOCKS
+//#region
+
+.colour-blocks
+{
+  display: grid;
+
+  grid-template-rows: 73px 73px 73px 73px 73px;
+}
+
+
+%colour-block
+{
+    width: 100%;
+}
+
+.colour-block-1
+{
+    @extend %colour-block;
+
+    background: #FEBE26;
+}
+.colour-block-2
+{
+    @extend %colour-block;
+    
+    background: #FE672E;
+}
+.colour-block-3
+{
+    @extend %colour-block;
+    
+    background: #F52D3A;
+}
+.colour-block-4
+{
+    @extend %colour-block;
+    
+    background: #D02467;
+}
+.colour-block-5
+{
+    @extend %colour-block;
+    
+    background: #710965;
+}
+
+
+
+
+//#endregion
