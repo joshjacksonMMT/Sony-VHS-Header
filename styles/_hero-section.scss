@@ -1,0 +1,84 @@
+
+.hero-section-header
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-section-header-title
+{
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 25px;
+  padding-left: 100px;
+
+  font-family: $sonyFontFamily;
+  letter-spacing: 3px;
+
+
+  h2
+  {
+    font-size: $h2FontSize;
+  }
+
+  h6
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 10px;
+
+    color: $accentColour;
+  }
+}
+
+.view-all-button
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 25px;
+  padding-right: 100px;
+
+  img
+  {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.hero-section-main
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 100px;
+
+  .made-in-japan-tagline
+  {
+    padding-right: 100px;
+  }
+}
+
+.hero-section-main-title
+{
+  display: flex;
+
+  padding-top: 25px;
+  padding-left: 100px;
+
+  h2
+  {
+    font-size: $h2FontSize;
+    display: flex;
+    flex-direction: column;
+
+    .m-180
+    {
+      font-size: $h1FontSize;
+    }
+  }
+}
